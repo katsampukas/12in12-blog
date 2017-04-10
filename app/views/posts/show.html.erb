@@ -10,4 +10,9 @@
   <p class="body">
     <%= @post.body %>
   </p>
+
+  <p>
+    <%= link_to "Edit Post", edit_post_path(@post) %> |
+    <%= link_to "Delete Post", @post, confirm: "Are you sure?", method: "delete" %>
+  </p>
 </div>
