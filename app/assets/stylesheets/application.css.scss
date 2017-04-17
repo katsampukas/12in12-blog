@@ -35,10 +35,18 @@ body {
   border-right: 1px solid #d6dce0;
 
   #logo {
-    width: 40px;
     position: absolute;
     right: 3em;
     top: 3em;
+    text-align: right;
+
+    a {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1;
+      color: #a4b4bf;
+      text-decoration: none;
+    }
   }
 
   ul {
